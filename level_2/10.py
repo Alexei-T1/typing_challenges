@@ -1,7 +1,9 @@
 from constants import ___
+from collections.abc import Sequence
 
+Point = tuple[int, int] 
 
-def is_point_in_square(point: ___, left_upper_corner: ___, right_bottom_corner: ___) -> ___:
+def is_point_in_square(point: Sequence[Point], left_upper_corner: Sequence[Point], right_bottom_corner: Sequence[Point]) -> bool:
     pass
 
 
